@@ -1,0 +1,17 @@
+name: Atunner
+version: '${project.version}'
+main: me.kasture.atunner.Atunner
+api-version: 1.19
+authors: [ Kasture ]
+description: Minecraft plugin
+commands:
+  hello:
+    description: use to test
+    usage: /<command> <word>
+  guild:
+    description: guild command
+    usage:
+      /guild create <name>
+      /guild info
+      /guild invite <name>
+
